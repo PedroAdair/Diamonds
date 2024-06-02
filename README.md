@@ -68,11 +68,17 @@ De los 2,962 registros faltantes, se sabe que estos faltantes unicamente se encu
 
 Notamos que los datos se distribuyen unicamente en 3 casos:
 * Caso I: Unicamente se desconoce *depth*: En este caso y como ya hemos probado, la formula $depth =\frac{z}{mean(x, y)}$. Podemos hacer una imputación directa a travez de evaluar la formula con los valore sconocidos. Esto nos permite recuperar el 63.2% de los datos faltantes.
-* Cao IV: Aqui se desconoce el valor de *x* y *depth*. Por la formula sabemos que *depth se pued calcular, entonces solo es necesario imputar el valor de $x$. Para esto aplicaremos la siguiente imputacion:
-    **imputacion por la media de los 15-vecinos mas cercanos**.
+* Cao IV: Aqui se desconoce el valor de *x* & *depth*. Por la formula sabemos que *depth se pued calcular, entonces solo es necesario imputar el valor de $x$. Para esto aplicaremos la siguiente imputacion:
+    **imputacion por la media de los $k$-vecinos mas cercanos**.
 
+* Caso VII: Similar al proceso anterior, se realizara la imputacion de *x* e *y* considereando los *k* vecinos mas cercanos.
 
+¿Como se realizara la seleccion de estos k vecinos?
+Se realizo un metodo comunimente conocido como del codo, sin empbargo algo mas apropiado seria usar un criterio como en de informacion Bayesiana
 
-## EDA 
-
-Comenzamos analizando los casi 54 mil registros que componen 
+## Variables categoricas
+Se tienen 32 vairbles categoricas, llamadas 
+*carat*,  *cut* y *color*, al analizarlas notamos el siguietne problema: 
+Existen fallos al momento de ingresar la categoria que nos indicaban una mayor existencia de ctegorias, ejemplo de esto en la variable "*cut*", tenemos que la etiqueta  "Premium" a veces viene con errores ortograficos, entre los cuales estan:
+*"Premium"*,*"P**remium"*,*"Pr?emium"*,*"P?remium"*, *"Pre!mium"*, *"&Premium"*, *"P*'remium"*,
+Par asolucionar este problema el cual se presento en las 3 tipos de variables, 
