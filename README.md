@@ -1,10 +1,10 @@
 # Diamonds
 Analisis de datos del conjunto diamonds realizado por Pedro Adair Avila.
-
+[streamlit](https://diamonds-are-forever.streamlit.app/)
 
 ## Descripcion del problema. 
 
-Realizar un modelo de regresion sobre el precio de los diamnates en base a las caractersiticas registradas en los archivos .csv proporcionados en el correo. Este 
+Realizar un analisis exploratorio sobre  diamantes en base a las caractersiticas registradas en los archivos .csv proporcionados en el correo. Este 
 archivo csv contiene 53,930  registros con 10 caracteristicas cada uno, las cuales son:
 
 |  Variable | Total not null values | type    |
