@@ -12,7 +12,7 @@ st.image("streamlit\diamond.png")
 st.title('Diamantes')
 st.markdown('<style>div.block-container{padding-top:1rem}</style>',unsafe_allow_html=True)
 tabs = st.tabs([
-    'Visualizacion de datos', 'Predicciones', '... ', '...'
+    'Visualizacion de datos'
 ])
 
 ##############################################
