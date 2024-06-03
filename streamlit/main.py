@@ -1,6 +1,5 @@
 import streamlit as st
 from func import *
-import matplotlib.pyplot as plt
 import plotly.express as px
 
 st.set_page_config(
