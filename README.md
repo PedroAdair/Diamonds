@@ -83,3 +83,9 @@ Se tienen 32 vairbles categoricas, llamadas
 Existen fallos al momento de ingresar la categoria que nos indicaban una mayor existencia de ctegorias, ejemplo de esto en la variable "*cut*", tenemos que la etiqueta  "Premium" a veces viene con errores ortograficos, entre los cuales estan:
 *"Premium"*,*"P**remium"*,*"Pr?emium"*,*"P?remium"*, *"Pre!mium"*, *"&Premium"*, *"P*'remium"*,
 Par asolucionar este problema el cual se presento en las 3 tipos de variables, 
+
+## Streamlit 
+
+![alt text](image-1.png)
+![alt text](image-3.png)
+![alt text](image-2.png)
