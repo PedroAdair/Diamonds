@@ -1,6 +1,6 @@
 # Diamonds
 Analisis de datos del conjunto diamonds realizado por Pedro Adair Avila.
-[streamlit](https://diamonds-are-forever.streamlit.app/)
+[streamlit](https://diamonsapp-are-forever.streamlit.app/)
 
 ## Descripcion del problema. 
 
@@ -89,3 +89,9 @@ Par asolucionar este problema el cual se presento en las 3 tipos de variables,
 ![alt text](image-1.png)
 ![alt text](image-3.png)
 ![alt text](image-2.png)
+
+### Nota importante. 
+El hotfix realizado el lunes 3 es correspondiente a los cambios en los archivo de entorno para que la aplicacion funcione en un servidor de streamlit cloud basado en linux.
+El resto de componentes quedo igual. 
+
+cualquier duda preguntar al siguiente correo: pedro.adair.avila@gmail.com
