@@ -1,5 +1,6 @@
 # Diamonds
-Data analysis about diamonds dataset
+Analisis de datos del conjunto diamonds realizado por Pedro Adair Avila.
+
 
 ## Descripcion del problema. 
 
@@ -67,8 +68,8 @@ De los 2,962 registros faltantes, se sabe que estos faltantes unicamente se encu
 ||  |  |   |2962|100|**Total**
 
 Notamos que los datos se distribuyen unicamente en 3 casos:
-* Caso I: Unicamente se desconoce *depth*: En este caso y como ya hemos probado, la formula $depth =\frac{z}{mean(x, y)}$. Podemos hacer una imputación directa a travez de evaluar la formula con los valore sconocidos. Esto nos permite recuperar el 63.2% de los datos faltantes.
-* Cao IV: Aqui se desconoce el valor de *x* & *depth*. Por la formula sabemos que *depth se pued calcular, entonces solo es necesario imputar el valor de $x$. Para esto aplicaremos la siguiente imputacion:
+* Caso I: Unicamente se desconoce *depth*: En este caso y como ya hemos probado, la formula $depth =\frac{z}{mean(x, y)}$. Podemos hacer una imputación directa a travez de evaluar la formula con los valores conocidos. Esto nos permite recuperar el 63.2% de los datos faltantes. 
+* Caso IV: Aqui se desconoce el valor de *x* & *depth*. Por la formula sabemos que *depth se pued calcular, entonces solo es necesario imputar el valor de $x$. Para esto aplicaremos la siguiente imputacion:
     **imputacion por la media de los $k$-vecinos mas cercanos**.
 
 * Caso VII: Similar al proceso anterior, se realizara la imputacion de *x* e *y* considereando los *k* vecinos mas cercanos.
